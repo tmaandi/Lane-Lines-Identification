@@ -25,7 +25,7 @@ The goals of this project are the following:
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. PipeLine Description
 
 The pipeline acts on a raw image like this:
 
@@ -81,7 +81,7 @@ solidWhiteCurve
 
 ![alt text][image12]
 
-### 2. Identify potential shortcomings with your current pipeline
+### 2. Potential shortcomings of the current pipeline
 
 
 One shortcoming is that this pipeline fails at the challenge video where lanes are curvy thoroughout the video. Secondly, there are intermittent shadowed areas on the road which are changing the image gradient.
@@ -89,9 +89,9 @@ One shortcoming is that this pipeline fails at the challenge video where lanes a
 Another shortcoming could be the region of interest masking, which is currently a carefully chosen quadrilateral centered at the bottom of the image but as we can see in the challenge video, the lower end of the image is taken by the car body which hampers the pipeline function. Even if this polygon is adjusted accordingly to fit this challenge video, this still may not work in a new video with a slightly different image orientation.
 
 
-### 3. Suggest possible improvements to your pipeline
+### 3. Possible improvements in the pipeline
 
-A possible improvement would be to have an algorithm which takes care of masking region of interest intelligently.
+A possible improvement would be to have an algorithm which takes care of masking region of interest intelligently and is robust enough to work in changing light, shadow and weather conditions
 
 Another potential improvement could be to have an algorithm which is capable of detecting continuously curved lanes.
 
