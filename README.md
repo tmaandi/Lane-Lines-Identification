@@ -11,11 +11,11 @@ The main goal of the project is to identify and annotate the lane lines in a vid
 
 This project requires the installation of miniConda followed by specific packages, all of which are covered in environment.yml
 
-**The key components of the project are as follows:
+** The key components of the project are as follows:
 
 1. P1.ipynb: a Jupyter notebook containing the detailed project with code
 2. writeup.md: a brief project summary with pictures
-3. test_images_output: Direcotry containing the outputs of the lane detection pipeline run on the last image
+3. test_images_output: Directory containing the outputs of the lane detection pipeline
 4. test_videos_output: Directory containing annotated, lane detected videos
 
 
